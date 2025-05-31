@@ -6458,7 +6458,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
   padding: 81px 0 49px;
 }
 .footer .footer__main .info {
-  padding-right: 130px;
+  padding-right: 10px;
 }
 .footer .footer__main .info .logo {
   margin-bottom: 10px;
