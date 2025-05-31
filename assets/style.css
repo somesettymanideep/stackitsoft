@@ -224,3 +224,17 @@
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
+@media only screen and (min-width: 967px) {
+#site-logo{
+  width:258px;
+  height:52px;
+                    
+}
+}
+@media only screen and (max-width: 567px) {
+#site-logo{
+  width:158px;
+  height:32px;
+                    
+}
+}
