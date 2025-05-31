@@ -2477,7 +2477,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
 }
 
 .join {
-  background: var(--surface);
+  background: #fef8fb;
   padding: 100px 0;
 }
 .join .join__images {
