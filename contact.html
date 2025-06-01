@@ -20,10 +20,10 @@
     />
     <!-- End Style CSS -->
 
-    <link rel="shortcut icon" href="assets/images/logo/favicon.png" />
+    <link rel="shortcut icon" href="assets/images/icon/favicon.png" />
     <link
       rel="apple-touch-icon-precomposed"
-      href="assets/images/logo/favicon.png"
+      href="assets/images/icon/favicon.png"
     />
   </head>
   <body class="body header-fixed">
@@ -686,17 +686,18 @@
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript">
   (function () {
-    emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+    emailjs.init("RXvUMepIGk2SG_sfO"); // Replace with your EmailJS public key
   })();
 </script>
 <script>
   document.getElementById("contact-form").addEventListener("submit", function (e) {
     e.preventDefault();
 
-    emailjs.sendForm("service_8jyv5gd", "YOUR_TEMPLATE_ID", this)
+    emailjs.sendForm("service_8jyv5gd", "template_qa3g339", this)
       .then(
         function () {
           alert("Message sent successfully!");
+          document.getElementById("contact-form").reset();
         },
         function (error) {
           alert("Failed to send message. Error: " + JSON.stringify(error));
