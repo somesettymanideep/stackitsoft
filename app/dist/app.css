@@ -1212,11 +1212,11 @@ body[data-magic-cursor=hide] .mouse-cursor {
 .coin-list {
   padding: 100px 0 59px;
 }
-.coin-list .block-text {
+/* .coin-list .block-text {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 .coin-list .block-text .heading {
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -6210,7 +6210,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
   color: #fff;
 }
 .register .flat-tabs .content-tab {
-  max-width: 690px;
+  max-width: 500px;
   margin: 40px auto 0;
 }
 .register .flat-tabs .content-tab form .form-group {
